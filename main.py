@@ -4,7 +4,7 @@ from music_player import MusicPlayer
 from chatbot_ui import ChatbotUI
 
 if __name__ == "__main__":
-    music_directory = "music_directory"  # Path to your music folders
+    music_directory = "music_directory"  
 
     mood_detector = MoodDetector()
     music_player = MusicPlayer(music_directory)
